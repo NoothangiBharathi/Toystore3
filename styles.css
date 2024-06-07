@@ -1,0 +1,663 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+   height: 100vh;
+   width: 100%;
+   background-image: url("../Images/backgroundimage.jpg");
+   background-size: cover;
+   background-position: center;
+   margin-top: 30px;
+}
+body{
+    background-position: center;
+   background-size: cover;  
+}
+.heading {
+   display: flex;
+ }
+ .heading h4{
+   margin-left: 40px;
+   font-size: 20px;
+ }
+ .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    height: 40px;
+    place-items: center; 
+ }
+ .container .icons ion-icon{
+   font-size: 15px;
+ }
+ .navbar {
+   display: flex; 
+   margin-top: 30px;
+  }
+  .navbar ul{
+   margin-left: 40px;
+  }
+  .navbar ul li{
+   display: inline-flex;
+   justify-content: space-between;
+   padding: 5px;
+    font-size: 20px;
+  }
+  .cart {
+   display: flex;
+   margin-left: 800px;
+   }
+   .cart p{
+      margin-right: 10px;
+   }
+   .cart-icon {
+      display: flex;  
+   }
+  .main-text{
+   margin-top: 150px;
+   text-align: center;
+   height: 300px;
+   width: 500px;
+   background-color: rgb(189, 189, 207);
+   margin-left: 500px;
+   border-radius: 20px;
+   position: absolute;
+  }
+  .main-text h1{
+   margin-top: 20px;
+  }
+  .main-text p{
+   padding: 20px;
+  }
+  .main-text button{
+      margin-top: 30px;
+      height: 50px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: transparent;
+      font-size: 20px;
+      font-weight: bold;
+     }
+.toys{
+   margin-top: 70px;
+   float: left;
+   justify-content: space-between; 
+   margin-left: 20px;
+}
+.box10{
+   height: 300px;
+   width: 600px;
+    border-radius: 40px;
+   display: flex;
+}
+.img1 img{
+   width: 300px;
+   height: 300px;
+   margin-left: 30px;
+   margin-bottom: 100px;
+   border-radius: 40px;
+   
+}
+.img-text1{
+   text-align: center;
+   margin-top: 120px;
+}
+.img-text1 p{
+   margin-top: 30px;
+   margin-left: 40px;
+   font-size: 30px;
+}
+.img-text1 button{
+   margin-top: 20px;
+   height: 30px;
+   width: 90px;
+   border-radius: 20px;
+   transition: all 0.5s ease;
+   border-color: transparent;
+}
+.img-text1 button:hover{
+   background-color: aqua;
+}
+.box11{
+   height: 300px;
+   width: 700px;
+    border-radius: 40px;
+   margin-top: 70px;
+   display: flex;
+   margin-right: 20px;
+   
+   margin-left: 150px;
+}
+.img2 img{
+   width: 300px;
+   height: 300px;
+   margin-left: 90px;
+    border-radius: 40px; 
+}
+.img-text2{
+   text-align: center;
+   margin-top: 120px;
+}
+.img-text2 p{
+   margin-top: 30px;
+   margin-left: 145px;
+   font-size: 30px;
+}
+.img-text2 button{
+   margin-top: 20px;
+   height: 30px;
+   width: 90px;
+   border-radius: 20px;
+   transition: all 0.5s ease;
+   border-color: transparent;
+   margin-left: 130px;   
+}
+.img-text2 button:hover{
+   background-color: aqua;
+}
+.animals{
+   display: flex;
+   margin-top: 40px;
+ }
+ .animals button{
+   margin-left: 1030px;
+  }
+  button{
+   border-radius: 30px;
+   height: 30px;
+    border-color: white;
+  }
+  ion-icon{
+   font-size: 30px;
+  }
+  .pic{
+   display: flex;
+   margin-top: 30px;
+   justify-content: space-between;
+  }
+  .pic1 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic1 h2{
+   text-align: center;
+  }
+  .pic1 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .pic1 button:hover{
+   background-color: aqua;
+  }
+  .box1{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+   .pic2 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic2 h2{
+   text-align: center;
+  }
+  .pic2 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+
+  }
+  .pic2 button:hover{
+   background-color: aqua;
+  }
+  .box2{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  .pic3 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic3 h2{
+   text-align: center;
+  }
+  .pic3 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+
+  }
+  .pic3 button:hover{
+   background-color: aqua;
+  }
+  
+  .box3{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  .pic4 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic4 h2{
+   text-align: center;
+  }
+  .pic4 button{
+   margin-left: 70px;
+   height: 30px;
+   width: 150px;
+   margin-top: 20px;
+   transition: all 0.5s ease;
+  }
+  .pic4 button:hover{
+   background-color: aqua;
+  }
+ .box4{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  .woodentoys{
+   display: flex;
+   margin-top: 40px;
+ }
+ .woodentoys button{
+   margin-left: 1030px;
+  }
+  .woodentoys button{
+   border-radius: 30px;
+   height: 30px;
+    border-color: white;
+  }
+  .woodentoys ion-icon{
+   font-size: 30px;
+  }
+.woodentoys5{
+   display: flex;
+   margin-top: 30px;
+   justify-content: space-between;
+  }
+  .woodenToys1 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .woodentoys1 h2{
+   text-align: center;
+  }
+  .woodentoys1 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys1 button:hover{
+   background-color: aqua;
+  }
+  .box5{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  .woodentoys1 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .woodentoys1 h2{
+   text-align: center;
+  }
+  .woodentoys1 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys1 button:hover{
+   background-color: aqua;
+  }
+  .box5{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+
+  .woodentoys2 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .woodentoys2 h2{
+   text-align: center;
+  }
+  .woodentoys2 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys2 button:hover{
+   background-color: aqua;
+  }
+  .box6{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+   .woodentoys3 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .woodentoys3 h2{
+   text-align: center;
+  }
+  .woodentoys3 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys3 button:hover{
+   background-color: aqua;
+  }
+  .box7{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+   .Woodentoys4 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .Woodentoys4 h2{
+   text-align: center;
+  }
+  .Woodentoys4 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .Woodentoys4 button:hover{
+   background-color: aqua;
+  }
+  .box8{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+.fixed h1{
+   text-align: center; margin-top: 60px;
+   margin-left: 50px;
+}
+  .fixedimage img{
+   height: 1000px;
+   width: 1300px;
+  }
+  .fixed h3{
+      text-align: center;
+      margin-top: 70px;
+     }
+     .kidimage h1{
+      margin-left: 100px;
+     }
+     .kidimage p{
+      margin-top: 30px;
+      font-size: 20px;
+     }
+  .fixed p{
+   text-align: center;
+   margin-top: 20px;
+   }
+  .fixed .forwardicon{
+        margin-left: 650px;
+        margin-top: 40px; 
+        height: 40px;
+        width: 45px;
+        border-radius: 20px;
+        background-color: greenyellow;
+        text-align: center;    
+  }
+  .fixed .forwardicon ion-icon{
+   margin-top: 5px;
+  }
+  .webflow h3{
+   text-align: center;
+   margin-top: 80px;
+  }
+  .webflow h1{
+   margin-top: 5px;
+  }
+ .fixedimage{
+   background-image: url("../Images/bigteddybear.jpg");
+   background-position: center;
+   background-size: cover;
+  }
+.webflow h1{
+   text-align: center;
+}
+.fixed2{
+   display: flex;
+   margin-top: 70px;
+}
+.kidimage h1{
+   text-align: center; 
+}
+.kidimage p{
+   text-align: center;
+   margin-left: 70px;
+}
+.kidimage button{
+   height: 30px;
+   width: 100px;
+   background-color: wheat;
+   border-radius: 30px;
+   border: transparent;
+   transition: all 0.5s ease;
+   margin-left: 130px;
+   margin-top: 40px;
+}
+.kidimage button:hover{
+   background-color: palevioletred;
+}
+
+.divkidimage2 img{
+   height: 300px;
+   width: 450px;
+   margin-left: 480px;
+}
+  .navbar4{
+      display: flex;
+     margin-top: 150px;
+     justify-content: space-between;
+     height: 150px;
+     width: 1350px;
+     background-color:pink;
+     text-align: center;
+     border-radius: 40px;
+   }
+   .navbar4 .format4 form input,.subscribebutton button, .icon4 ion-icon, .icon4,.headline4 h2{
+      margin-top: 25px;
+   }
+   span{
+      color: rgb(111, 152, 111)
+   }
+     .navbar4 .format4 form input{
+      height: 60px;
+      width: 300px;
+      border-radius: 30px;
+      background-color:whitesmoke;
+     }
+     .navbar4 .subscribebutton button{
+      height: 60px;
+      width: 150px;
+      background-color:whitesmoke;
+      border-color:black
+     }
+      .navbar4 .icon4 ion-icon{
+         margin-top: 20px;
+   }
+     .navbar4 .icon4 {
+   height: 70px;
+   width: 80px;
+   border-radius: 50px;
+    background-color: greenyellow;
+   margin-left: 120px;
+   text-align: center;
+    }
+    .navbar4 .headline4 h2{
+      font-weight: 50px;
+      font-size: 40px;
+    }
+    .themes{
+      margin-top: 150px;
+    }.themes h1{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .themes h3{
+         text-align: center;
+    }
+    .themeimage{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+    }
+    .themeimage1 img{
+      height: 180px;
+      width: 200px;
+      border-radius: 30px;
+    }
+    .themeimage2 img{
+      height: 180px;
+      width: 200px;
+      border-radius: 30px;
+    }
+    .themeimage3 img{
+      height: 180px;
+      width: 200px;
+      border-radius: 30px;
+    }
+    .themeimage4 img{
+      height: 180px;
+      width: 200px;
+      border-radius: 30px;
+    }
+    .themeimage5 img{
+      height: 180px;
+      width: 200px;
+      border-radius: 30px;
+    }
+    .themeimage6 img{
+      height: 180px;
+      width: 200px;
+      border-radius: 30px;
+    }
+     .themebutton {
+      margin-top: 80px;
+      text-align: center;
+     }
+     .themebutton button{
+      height: 60px;
+      width: 200px;
+      background-color: greenyellow;
+      transition: all o.5s ease;
+      border: transparent;
+     }
+     .themebutton button:hover{
+      background-color: palevioletred;
+     }
+     .navbar5{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      height: 150px;
+      width: 1350px;
+      background-color: greenyellow;
+      }
+     .navbar5 .alignments ul{
+         display: flex;
+     }
+     .navbar5 .alignments ul li{
+      padding: 5px;
+      margin-left: 20px;
+      font-size: 20px;
+      font-size: 20px;
+      display: flex;
+    }
+    .navbar5 .heading5 h2,.alignments ul li,.incons6 ion-icon{
+   margin-top: 50px;
+   }
+   .navbar6{
+      margin-top: 2px;
+      height: 90px;
+      width: 1350px;
+      background-color: greenyellow;
+      display: flex;
+      justify-content: space-between;
+ }
+   .navbar6 .alignments2 ul li{
+      display: flex;
+   }
+   .navbar6 .alignments2 ul{
+      display: flex; 
+       margin-left: 20px;
+      justify-content: space-between;     
+   }
+   .alignments2 ul li{
+       margin-left: 20px;
+   }
+   .navbar6 .heading6 h4 {
+       margin-top: 40px;
+   }
+   .navbar6 .alignments2{
+      margin-top:  40px; 
+   }
